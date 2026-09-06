@@ -980,10 +980,6 @@ LIBDIR="\$(top_srcdir)/lib"
 AC_SUBST(LIBDIR)
 
 AC_CONFIG_FILES([
-	MSVC/Makefile
-	MSVC/build/Makefile
-	Xcode/Makefile
-	Xcode/BZFlag.xcodeproj/Makefile
 	Makefile
 	bzflag.spec
 	data/Makefile
@@ -1053,10 +1049,8 @@ AC_CONFIG_FILES([
 	src/scene/Makefile
 	tools/Makefile
 	tools/TextTool2/Makefile
-	tools/TextTool2/TextTool2.xcodeproj/Makefile
 	tools/bzwtransform/Makefile
 	tools/modeltool/Makefile
-	tools/modeltool/MSVC/Makefile
 ])
 AC_OUTPUT
 
